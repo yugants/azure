@@ -79,7 +79,7 @@
       "properties": {
         "azPowerShellVersion": "3.0",
         "arguments": "[format('-tenant_id {0} -client_id {1} -client_secret {2} -purview_account {3}  -subscription_id {4} -resource_group {5} -location {6} ')]",
-        "primaryScriptUri": "https://raw.githubusercontent.com/tayganr/purviewdemo/main/scripts/postDeploymentScript.ps1",
+        "primaryScriptUri": "https://github.com/yugants/azure/blob/main/postDeploymentScript.ps1",
         "forceUpdateTag": "[guid(resourceGroup().id)]",
         "retentionInterval": "PT4H"
       },
