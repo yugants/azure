@@ -9,12 +9,6 @@
     }
   },
   "parameters": {
-    "azureActiveDirectoryObjectID": {
-      "type": "string",
-      "metadata": {
-        "description": "Please enter your Azure AD Object ID. This can be found by locating your profile within Azure Portal > Azure Active Directory > Users."
-      }
-    },
     "servicePrincipalClientID": {
       "type": "string",
       "metadata": {
